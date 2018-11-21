@@ -1,2 +1,16 @@
 {
-}
+    // config und
+    "eslint.validate": [
+      "javascript",
+      "javascriptreact",
+      "typescript",
+    ],
+    "[typescript]": {
+      "editor.formatOnSave": true
+    },
+    "[javascript]": {
+      "editor.formatOnSave": true
+    },
+    "eslint.autoFixOnSave": true,
+    "prettier.eslintIntegration": true
+  }
